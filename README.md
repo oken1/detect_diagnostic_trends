@@ -5,8 +5,7 @@
 
 使い方
 =============
-
-1. detect_diagnostic_trends.zipをダウンロードして展開する  
+1. Releasesからdetect_diagnostic_trends.zipをダウンロードして展開する  
 
 2. chromeの拡張機能画面でデベロッパーモードをONにして「パッケージ化されていない拡張機能を読み込む」を押す  
 
