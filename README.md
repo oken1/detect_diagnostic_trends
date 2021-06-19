@@ -8,7 +8,7 @@
   
 本拡張機能とサーバーサイド処理の連携について
 =============
-1. [KuroTwi](https://github.com/oken1/kurotwi)で使ったトレンドから診断系由来のワードを抽出する処理をほぼそのまま流用しGoogle Apps Scriptで作成  
+1. トレンドから診断系由来のワードを抽出するプログラムをGoogle Apps Scriptで作成（[KuroTwi](https://github.com/oken1/kurotwi)で使った処理をほぼそのまま流用）  
 
 2. 抽出処理をGoogle Apps Scriptのトリガー機能を使って定期的に実行し、Google Drive上のファイルに抽出したワードを出力  
 
