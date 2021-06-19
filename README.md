@@ -6,8 +6,7 @@
   
 ![detect_diagnostic_trends_ss](https://raw.githubusercontent.com/oken1/images/master/detect_diagnostic_trends_readme/detect_diagnostic_trends_ss.png)
   
-
-トレンドからの診断系由来ワード抽出は、KuroTwiで実装した抽出方法をサーバーサイド（Google Apps Script）で定期的に動かし、  
+トレンドからの抽出は、KuroTwiで実装した抽出処理をサーバーサイド（Google Apps Script）で定期的に動かし、  
 そこから結果を取得してくることで実現しています
   
   
