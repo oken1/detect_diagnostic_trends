@@ -1,9 +1,16 @@
 診断系由来のトレンドに×印を付ける
 =============
 
-このアプリケーションはTwitter公式Webのトレンド画面で、診断系由来のトレンドに❌印を付けるChrome拡張機能です。  
-![detect_diagnostic_trends_ss](https://raw.githubusercontent.com/oken1/images/master/detect_diagnostic_trends_readme/detect_diagnostic_trends_ss.png)
+このアプリケーションはTwitter公式Webのトレンド画面で、診断系由来のトレンドに❌印を付けるChrome拡張機能です。
 
+  
+![detect_diagnostic_trends_ss](https://raw.githubusercontent.com/oken1/images/master/detect_diagnostic_trends_readme/detect_diagnostic_trends_ss.png)
+  
+
+トレンドからの診断系由来ワード抽出は、KuroTwiで実装した抽出方法をサーバーサイド（Google Apps Script）で定期的に動かし、  
+そこから結果を取得してくることで実現しています
+  
+  
 使い方
 =============
 1. Releasesからdetect_diagnostic_trends.zipをダウンロードして展開する  
