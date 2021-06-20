@@ -14,10 +14,10 @@
 3. manifest.jsonが置いてあるフォルダを指定する  
   
 # 本機能の実現方法
-1. トレンドから診断系由来のワードを抽出するプログラムをGoogle Apps Scriptで作成（[KuroTwi](https://github.com/oken1/kurotwi)で使った処理をほぼそのまま流用）  
+1. トレンドから診断系由来のワードを抽出するプログラムをGoogle Apps Scriptで作成（抽出方法は、[KuroTwi](https://github.com/oken1/kurotwi)で使った処理をほぼそのまま流用）  
 
-2. 抽出処理をGoogle Apps Scriptのトリガー機能を使って定期的に実行し、Google Drive上のファイルに抽出したワードを出力  
+2. 上記の抽出処理スクリプトをGoogle Apps Scriptのトリガー機能を使って定期的に実行して、Google Drive上のファイルに抽出したワードを出力  
 
-3. 出力されたファイルを読み込み、その内容をそのまま返すAPIをGoogle Apps Scriptで作成  
+3. 出力されたファイルを読み込んで内容をそのまま返すAPIをGoogle Apps Scriptで作成  
 
 4. 本拡張機能でAPIを呼びだし、❌印を付けるトレンドを特定  
