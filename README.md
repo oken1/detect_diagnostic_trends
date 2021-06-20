@@ -2,7 +2,9 @@
 このアプリケーションはTwitter公式Webのトレンド画面で、診断系由来のトレンドに❌印を付けるChrome拡張機能です。  
 トレンドの表示が下の画像のようになります。  
   
-![detect_diagnostic_trends_ss](https://raw.githubusercontent.com/oken1/images/master/detect_diagnostic_trends_readme/detect_diagnostic_trends_ss.png)
+|![detect_diagnostic_trends_ss](https://raw.githubusercontent.com/oken1/images/master/detect_diagnostic_trends_readme/detect_diagnostic_trends_ss.png)|
+|:-:|
+
   
 # 使い方
 1. Releasesからdetect_diagnostic_trends.zipをダウンロードして展開する  
